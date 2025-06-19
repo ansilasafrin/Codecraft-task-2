@@ -1,0 +1,63 @@
+*{
+    background-color:teal;
+   
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    padding-top: 20px;
+    line-height: 1.2;
+}
+.box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.box h1{
+    margin: 5px;
+    background-color:white;
+}
+.box h3{
+    margin: 5px;
+    background-color: white;
+}
+.box p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:  5px; 
+    background-color:white;
+}
+.skill{
+    display: inline-block;
+    padding:8px 12px;
+    margin: 5px;
+    background-color:white;
+}
+.skill span{
+    background-color:rgb(197, 195, 195);
+    border-radius: 10%;
+}
+.icons{
+    background-color: white;
+    display: inline;
+    padding: 10px;
+}
+.box a{
+    background-color: white;
+}
+.icons img{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+}
